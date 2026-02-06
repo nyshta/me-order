@@ -30,3 +30,13 @@ FTGO with Symfony:
 
 5. Swoole:
 - create alternative Order Service with Swoole
+
+
+-----------
+DOCKER
+- compose.yaml vs compose.override.yaml vs compose.prod.yaml
+- networks
+- images and instances
+- ports
+- volumes
+- entrypoint
