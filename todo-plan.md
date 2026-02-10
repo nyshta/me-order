@@ -13,11 +13,17 @@ FTGO with Symfony:
   + put symfony-docker inside the repo
   + install symfony skeleton
   + install db https://github.com/dunglas/symfony-docker/blob/main/docs/mysql.md
-  - add mysql creds to .env from compose.yaml, use AI plan with prompt:
+  - add db creds to .env from compose.yaml, use AI plan with prompt:
     ````
     put database envs from compose.yaml into .env.dev, .env, .env.example
     ````
-  - add makefile 
+  + add makefile 
+
+  - API Platform: first api-endpoint for Order service /order/create
+  - Ecotone +stubs for other services
+  - Docker: make shared network to make services call each other
+
+
 - Consumer service
 - Kitchen service
 - Accounting service
